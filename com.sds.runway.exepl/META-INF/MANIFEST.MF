@@ -1,0 +1,21 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Exepl
+Bundle-SymbolicName: com.sds.runway.exepl
+Bundle-Version: 1.3.2.qualifier
+Bundle-Vendor: Samsung SDS
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Require-Bundle: org.eclipse.draw2d;bundle-version="3.7.2",
+ org.eclipse.gef;bundle-version="3.7.2",
+ org.eclipse.jface;bundle-version="3.7.0",
+ org.eclipse.core.runtime;bundle-version="3.7.0",
+ org.apache.log4j;bundle-version="1.2.15",
+ org.eclipse.ui.editors;bundle-version="3.7.0",
+ org.eclipse.ui;bundle-version="3.7.0"
+Export-Package: com.sds.runway.exepl.action,
+ com.sds.runway.exepl.contentProposal,
+ com.sds.runway.exepl.control,
+ com.sds.runway.exepl.helper,
+ com.sds.runway.exepl.keyhandler,
+ com.sds.runway.exepl.layout,
+ com.sds.runway.exepl.router
